@@ -8,6 +8,9 @@ class Dog
     puts name
   end
   
+  def name=(name)
+    
+  
   def initialize(breed)
     @breed = breed
   end
