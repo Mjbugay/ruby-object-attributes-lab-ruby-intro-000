@@ -3,14 +3,14 @@ class Dog
     @name = name 
   end
   def name 
-    "#{name}"
+    puts "#{name}"
   end
   
   def breed=(breed)
     @breed = breed
   end
   def breed
-    "#{breed}"
+    puts "#{breed}"
   end
   
 end
